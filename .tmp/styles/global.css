@@ -1,0 +1,47 @@
+/**
+ * Bootstrap Fonts
+ */
+ .animated.delay1s{
+     animation-delay: 1s;
+     -webkit-animation-delay: 1s;
+}
+.animated.delay2s{
+     animation-delay: 2s;
+     -webkit-animation-delay: 2s;
+}
+
+.animated.delay3s{
+     animation-delay: 3s;
+     -webkit-animation-delay: 3s;
+}
+/**
+ * App-wide Styles
+ */
+
+*,html,body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    color:rgb(238, 238, 238);
+    background: rgb(38, 41, 46);
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+ a{
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.1s linear 0s;
+}
+a:hover, a:active, a:focus {
+  outline: 0;
+  color: rgb(62, 154, 18);
+  text-decoration: none;
+}
